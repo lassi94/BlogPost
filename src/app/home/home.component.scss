@@ -1,0 +1,42 @@
+
+
+$accent-color: #00E4AC;
+
+.post-container{
+    background-color: #363E45;
+    padding: 23px;
+    margin-bottom: 30px,;
+    height: 100%;
+    position: relative;
+}
+
+.post-container a.post-title{
+    font-size: 1.5em;
+    display: block;
+}
+
+.post-container p{
+    margin: 20px 0 25px 0;
+}
+
+.posts{
+    margin-bottom: 30px;
+}
+
+.btn{
+    float: none;
+    position: absolute;
+    background-color: #363E45;
+}
+
+.btn:hover{
+    background-color: $accent-color;
+}
+
+.Group_17 svg{
+    position: relative;
+    width: 65px;
+    height: 65px;
+    max-width: none;
+    left: 10px;
+}

@@ -1,0 +1,51 @@
+
+$bg: #2A3136;
+$tetx-color: #88949D;
+$accent-color: #00E4AC;
+$used-font: 'Raleway';
+
+
+h1{
+    font-size: 3em;
+    font-family: $used-font;
+    color: #fff; 
+    margin-bottom: 10px;
+    float: left;
+    font-weight: 600;
+    line-height: 1.2em;
+    text-transform: uppercase;
+}
+
+label{
+    color: $accent-color;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+input[type="text"], textarea{
+    background: transparent;
+    border: 1px solid #617879;
+    padding: 22px 15px;
+    color:$tetx-color;
+}
+
+textarea{
+    min-height: 70px;
+}
+
+.filled{
+    background: #00E4AC;
+    color:$bg;
+    float: left;
+    border-radius: 0;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Raleway';
+    padding: 12px 22px;
+    margin-top: 40px;
+}
+
+.alert{
+    margin: -5px 0 20px 0;
+}

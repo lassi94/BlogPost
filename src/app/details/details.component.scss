@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+$used-font: 'Raleway';
+$color: #00E4AC;
+
+p{
+    font-size: 1.6em;
+    font-family: $used-font;
+}
+
+.button{
+    float:left;
+    margin-bottom: 10px;
+    border: 1px solid $color;
+    margin-left: 0;
+}
+
+h1{
+    font-size: 3em;
+    font-family: $used-font;
+    color: #fff; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+    float: left;
+    font-weight: 600;
+    line-height: 1.2em;
+    text-transform: uppercase;
+}
+
+svg{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    cursor: pointer;
+
+}
+

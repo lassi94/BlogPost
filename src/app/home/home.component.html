@@ -1,0 +1,23 @@
+
+<div class="row">
+    <div class="columns small-12 medium-6 large-4 posts" *ngFor="let post of posts">
+        <div class="post-container">
+            <div class="row">
+                <div class="columns small-12 large-10">
+                    <a routerLink="/details/{{ post._id }}" class="post-title">{{ post.title }}</a>
+                </div>
+                <div class="columns small-12 large-2 show-for-large">
+                    <a href="{{ post.url }}" target="_blank" class="Group_17">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="783.337 475.258 110.233 109.99"><defs>
+                        <style>.a{fill:#00e4ac;}.b,.c{fill:none;stroke:#2a3136;}.b{stroke-width:4px;}.c{stroke-width:3px;}</style></defs>
+                        <g transform="translate(270 58)"><ellipse class="a" cx="55.117" cy="54.995" rx="55.117" ry="54.995" transform="translate(513.337 417.258)"/>
+                        <line class="b" y1="32.167" x2="33.278" transform="translate(551.814 456.17)"/><line class="c" y1="23.866" transform="translate(586.132 454.613)"/>
+                        <line class="c" x2="23.918" transform="translate(563.253 455.651)"/></g></svg>
+                    </a>
+                </div>
+            </div>
+            <p>{{ post.desc | length: 130 }}</p>
+            <a routerLink="/details/{{ post._id }}" class="button large btn">More info</a>
+        </div>
+    </div>
+</div>
