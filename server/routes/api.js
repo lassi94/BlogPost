@@ -5,8 +5,6 @@ const router = express.Router();
 const mongoose = require('mongoose');
 const post = require('../models/post');
 
-const db = "mongodb://lasik:artek870@ds163418.mlab.com:63418/blogpostnet";
-
 
 
 //mongoose promise
